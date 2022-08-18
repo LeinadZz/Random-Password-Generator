@@ -19,7 +19,7 @@ function writePassword() {
 function generatePassword() {
     var passwordSet = "";
     
-    var length = prompt("How long would you like your password to be from 8-128")
+    var length = prompt("Please choose the length of your password with a minimum of 8 characters and maximum of 128 characters.")
         console.log(length)
 
     var upperCase = confirm("Would you like to add uppercase letters?");
